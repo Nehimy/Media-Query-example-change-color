@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background: #e6595f;
+}
+
+/* @media only screen and (max-width:600px) { */
+/*     body { */
+/*         background: #4444b0; */
+/*     } */
+/* } */
+
+/* @media screen and (max-width:600px) { */
+/*     body { */
+/*         background: #4444b0; */
+/*     } */
+/* } */
+
+.a {
+    background: brown;
+}
+
+.b {
+    background: aliceblue;
+}
+
+@media (max-width:600px) {
+    body {
+        background: #282828;
+    }
+}
