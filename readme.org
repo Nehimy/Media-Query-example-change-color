@@ -1,0 +1,21 @@
+* Media Queries -CSS
+Utiliza @media query para incluir  propiedades CSS cuando se cumple la condición que indiques.
+
+** Ejemplo de media query
+En este ejemplo vemos que a partir de determinado tamaño en el width el color del body cambia.
+
+
+#+begin_src python
+@media (max-width:600px) {
+    body {
+        background: #52d2b4;
+    }
+}
+#+end_src
+
+* Imagenes
+
+[[https://i.imgur.com/0F0kNAJ.png]]
+[[https://i.imgur.com/vyblYcc.png]]
+[[https://i.imgur.com/mo4ns0o.png]]
+[[https://i.imgur.com/HhBvX1Z.png]]

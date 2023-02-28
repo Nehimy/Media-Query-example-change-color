@@ -1,30 +1,41 @@
+/* Para la etiqueta h1*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Para la etiqueta p*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
 body {
     color: white;
-    background: #e6595f;
+    background: #eeaf5d;
 }
 
-/* @media only screen and (max-width:600px) { */
-/*     body { */
-/*         background: #4444b0; */
-/*     } */
-/* } */
-
-/* @media screen and (max-width:600px) { */
-/*     body { */
-/*         background: #4444b0; */
-/*     } */
-/* } */
-
-.a {
-    background: brown;
+@media only screen and (max-width:1000px) {
+    body {
+        background: #7c53b7;
+    }
 }
 
-.b {
-    background: aliceblue;
+
+@media screen and (max-width:800px) {
+    body {
+        background: #ea61b4;
+    }
 }
 
 @media (max-width:600px) {
     body {
-        background: #282828;
+        background: #52d2b4;
     }
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+.a, .b {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;;
 }
